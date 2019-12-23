@@ -1,4 +1,4 @@
-# fyr
+# fyr - Fiscal Year R
 Fiscal Year From Date: Returns an integer year from a date based on the starting month of the fiscal year
 
 fy(fy_date, fy_start = 1)
