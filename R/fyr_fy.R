@@ -7,7 +7,6 @@
 #' @examples
 #' fy(as.Date("2019-05-01"),6)
 #' @export
-
 fy<- function(fy_date,fy_start=1) {
   if (is.numeric(fy_start)) {
     fy_start<-as.integer(fy_start)
