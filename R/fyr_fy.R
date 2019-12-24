@@ -6,6 +6,7 @@
 #' @param fy_start Must be an integer in range of 1 - 12 to represent the starting month of the fiscal year
 #' @examples
 #' fy(as.Date("2019-05-01"),6)
+#' @export
 
 fy<- function(fy_date,fy_start=1) {
   if (is.numeric(fy_start)) {
