@@ -1,7 +1,7 @@
 Package: fyr
 Type: Package
 Title: Returns Fiscal Year From Date
-Version: 0.1.0
+Version: 0.1.1
 Author: Michael Valcic <michael.i.valcic@gmail.com>
 Maintainer: Michael Valcic <michael.i.valcic@gmail.com>
 Description: Returns an integer for the fiscal year from a date and a starting month of the fiscal year.
