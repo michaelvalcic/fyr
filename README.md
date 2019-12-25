@@ -10,7 +10,7 @@ fy_start: Must be an integer in range of 1 - 12 to represent the starting month 
 
 ### Example
 ````r
-fy(as.Date("2019-05-01"),6)
+fy(as.Date("2019-06-01"),7)
 ````
 Would return
 ````r
@@ -18,7 +18,7 @@ Would return
 ````
 While
 ````r
-fy(as.Date("2019-06-01"),6)
+fy(as.Date("2019-07-01"),7)
 ````
 Would return
 ````r
