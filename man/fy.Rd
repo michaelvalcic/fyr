@@ -4,7 +4,7 @@
 \alias{fy}
 \title{Fiscal Year}
 \usage{
-fy(fy_date, fy_start = 1)
+fy(fy_date, fy_start = 7)
 }
 \arguments{
 \item{fy_date}{Date in date format}
