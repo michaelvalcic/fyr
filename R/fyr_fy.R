@@ -9,7 +9,7 @@
 #' @export
 #'
 #'
-fy<- function(fy_date,fy_start=1) {
+fy<- function(fy_date,fy_start=7) {
   if (is.numeric(fy_start)) {
     fy_start<-as.integer(fy_start)
     if (fy_start>0&
