@@ -7,9 +7,9 @@
 fy(fy_date, fy_start = 7)
 }
 \arguments{
-\item{fy_date}{Date in date format}
+\item{fy_date}{Date in date format.}
 
-\item{fy_start}{Must be an integer in range of 1 - 12 to represent the starting month of the fiscal year}
+\item{fy_start}{Must be an integer in range of 1 - 12 to represent the starting month of the fiscal year. The default is 7.}
 }
 \description{
 Returns an integer year from a date based on the starting month of the fiscal year
