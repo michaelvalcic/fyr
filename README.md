@@ -11,7 +11,7 @@ fy(fy_date, fy_start)
 
 fy_date: Date in date format
 
-fy_start: Must be an integer in range of 1 - 12 to represent the starting month of the fiscal year. The default is 1.
+fy_start: Must be an integer in range of 1 - 12 to represent the starting month of the fiscal year. The default is 7.
 
 ### Example:
 ````r
