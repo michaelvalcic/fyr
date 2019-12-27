@@ -1,12 +1,17 @@
 # fyr - Fiscal Year R
 Fiscal Year From Date: Returns an integer year from a date based on the starting month of the fiscal year
 
+### To Install:
+````r
+install.packages("devtools")
+devtools::install_github("michaelvalcic/fyr")
+````
+### Syntax
 fy(fy_date, fy_start = 1)
-
 
 fy_date: Date in date format
 
-fy_start: Must be an integer in range of 1 - 12 to represent the starting month of the fiscal year
+fy_start: Must be an integer in range of 1 - 12 to represent the starting month of the fiscal year. The default is 1.
 
 ### Example
 ````r
