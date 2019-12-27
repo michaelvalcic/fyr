@@ -7,7 +7,7 @@ install.packages("devtools")
 devtools::install_github("michaelvalcic/fyr")
 ````
 ### Syntax:
-fy(fy_date, fy_start = 1)
+fy(fy_date, fy_start)
 
 fy_date: Date in date format
 
